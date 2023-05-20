@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Push - Push Code</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Auto Push</h1>
+    <form id="pushForm">
+      <label for="filePath">File Path:</label>
+      <input type="text" id="filePath" required>
+
+      <label for="repositoryName">Repository Name:</label>
+      <input type="text" id="repositoryName" required>
+
+      <button type="submit" id="pushButton">Push Code</button>
+      <p id="errorMessage" class="error"></p>
+    </form>
+  </div>
+
+  <script src="push.js"></script>
+</body>
+</html>
